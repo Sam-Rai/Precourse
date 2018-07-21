@@ -108,7 +108,8 @@ function multiplyArguments() {
   else if (arguments.length === 1){
     return arguments[0];
     
-  }else if (arguments.length > 1) {
+  }
+  else if (arguments.length > 1) {
   for (let i = 0; i < arguments.length; i++){
     product = product * arguments[i];
   }
